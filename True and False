@@ -1,0 +1,11 @@
+"""bool_value = True
+print(bool_value)"""
+
+#None - Nonetype
+
+#""none_type = None""
+
+a = 100
+b = 200
+
+print (a + b + 123 )
