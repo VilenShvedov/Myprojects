@@ -1,11 +1,9 @@
-name, surname, age = input( "Please enter name, surname, age" ).split(', ')
+some_list = [['name','Roman'],['surname', 'kustelepa']]
 
-#sample = input().split
-#print(sample)
-#print(type(sample))
+for key, value in some_list:
+    print(key)
+    print(value)
 
-
-print(name)
-print(surname)
-print(age)
-""
+for element in some_list:
+    for value in element:
+        print(value)
