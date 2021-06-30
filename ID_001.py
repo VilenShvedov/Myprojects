@@ -18,10 +18,13 @@ elif user_choice =='2':
     pass
 elif user_choice == '3':
     pass
-first_check_code = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1]
-second_check_code = [3, 4, 5, 6, 7, 8, 9, 1, 2, 3]
+#first_check_code = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1]
+
+
+#second_check_code = [3, 4, 5, 6, 7, 8, 9, 1, 2, 3]
 regions = user_code [
-if int(user_code[7:10]) ==
+if int(user_code[7:10]) > 0 and int(user_code[7:10])  <= 27:  #
+
 
 user_code.index('user_code', 0, 12)
 print(user_code)
