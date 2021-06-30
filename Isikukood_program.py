@@ -22,3 +22,6 @@ while True:
 
 if int(user_code[7:10]) in range(0:28): # Region method range
 print(int(id_code[0]* 2 ) # Dlja kontrolja koda
+
+
+# kod dlja proverki checkerov 388803160272
