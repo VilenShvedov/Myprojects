@@ -16,7 +16,11 @@ if user_choice == '1':
     print(user_code[5:7] + '.' + user_code[3:5] + '.' + birth_cent + user_code[1:3])
     print(gender)
 elif user_choice == '2':
-    check_code = ((int(user_code[0] * 1) + int(user_code[1] * 2) + int(user_code[2] * 3) + int(user_code[3] * 4) + int(user_code[4] * 5) + int(user_code[5] * 6) + int(user_code[6] * 7) + int(user_code[7] * 8) + int(user_code[8] * 9) + int(user_code[9] * 1)) /10 )
+    check_code = ((int(user_code[0]) * 1) + int((user_code[1]) * 2) + int((user_code[2]) * 3) + int((user_code[3]) * 4) + int((user_code[4]) * 5) + int((user_code[5]) * 6) + int((user_code[6]) * 7) + int((user_code[7]) * 8) + int((user_code[8]) * 9) + int((user_code[9]) * 1)) :
+    check_code = check_code % 11
+    if
+    elif int(check_code) == "0" or int(check_code) == '10':
+        print((int(user_code[0]) * 3) + int((user_code[1]) * 4) + int((user_code[2]) * 5) + int((user_code[3]) * 6) + int((user_code[4]) * 7) + int((user_code[5]) * 8) + int((user_code[6]) * 9) +int((user_code[7]) * 1) + int((user_code[8]) * 2) + int((user_code[9] * 3)))
     print(check_code)
     if int(user_code[7:10]) in range(0, 11):
         print('Kuressaare haigla')
