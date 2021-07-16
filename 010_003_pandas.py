@@ -18,7 +18,7 @@ while number < df.shape[0]:
 '''print(df.iloc[1,2])
 print(df.loc[[1,3], ['name', 'email']])
 
-print(df.shape)
+print(df.shape) - forma nawego data freima
 print(type(df.shape))
 print(df.shape[1])
 '''

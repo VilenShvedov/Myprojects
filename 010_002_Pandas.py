@@ -13,7 +13,7 @@ print(new_df.columns[0]) # Soderzit v sebe vse nazvanija stolbov tak ze mozno v 
 #ukazqvat nomer stolba
 print(type(new_df.columns))
 df.to_csv('new_csv2.csv', columns=['Country or region', 'GDP per capita', 'Healthy life expectancy'], index=False)
-#skipwors will skip some rows depends on ={number}
+#skiprows will skip some rows depends on ={number}
 #pd.set_option - изменяет строку
 #names указывает именна для столбов
 #nrows
