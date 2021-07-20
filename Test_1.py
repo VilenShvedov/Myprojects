@@ -1,4 +1,5 @@
 import pandas as pd
+import time
 
 user_choice = input('Please choose\n'
                     '1.Hobby or work\n'
@@ -18,6 +19,8 @@ elif user_choice == '3':
         print(df['Country'].value_counts())
 elif user_choice =='4':
     print(df['CurrencyDesc']).value_counts
+    print(df.sort_values(['CurrencyDesc']))
+user_choice
 
 
 
