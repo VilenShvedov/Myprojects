@@ -1,6 +1,6 @@
 import datetime #as dt #  AS pereimenovqvaet biblioteku
 
-'''today = datetime.date.today()
+today = datetime.date.today()
 print(today)
 print(type(today))
 year, month, day = input('Print date: ').split('.')
@@ -11,7 +11,7 @@ print(user_date.month)
 print(type(user.date.month))
 print(user_date.day)
 print(type(user.date.day))
-print(today.year - user_date.year)'''
+print(today.year - user_date.year)
 
 '''today = datetime.date.today()
 some_date = datetime.date(1990, 10, 7)

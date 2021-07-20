@@ -1,4 +1,4 @@
-courses = {'History', 'Math', 'Literature', 'Physics', 'Programming', 'Math'}
+ courses = {'History', 'Math', 'Literature', 'Physics', 'Programming', 'Math'}
 courses2 = {'Math', 'History'}
 numbers = [1, 2, 3, 4, 5, 6, 6, 6, 6,]
 '''empty_set = set()

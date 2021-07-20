@@ -1,9 +1,36 @@
 import pandas as pd
 
+user_choice = input('Please choose\n'
+                    '1.Hobby or work\n'
+                    '2.Age\n'
+                    '3.Countries\n'
+                    '4.CurrencyDesc\n'
+                    '-->')
+
 df = pd.read_csv('devel//names.csv')
 
-df.to_csv('names', index=False, header=None)
-new_df = pd.read_csv('names', header=None)
-pd.set_option('display.max_columns',4)
-print(new_df)
-print(new_df.columns[0][2])
+if user_choice == '1':
+        print(df['Hobbyist'].value_counts())
+elif user_choice == '2':
+        print(df['Age'].value_counts())
+elif user_choice == '3':
+        print(df['Country'])
+        print(df['Country'].value_counts())
+elif user_choice =='4':
+    print(df['CurrencyDesc']).value_counts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
