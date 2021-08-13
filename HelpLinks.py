@@ -7,3 +7,5 @@ https://matplotlib.org/
 certifi-2021.5.30 charset-normalizer-2.0.4 idna-3.2 requests-2.26.0 urllib3-1.26.6
 https://www.gammatest.net/course/python/
 https://rus.postimees.ee/7313065/fond-integracii-v-avguste-otkroet-zapis-na-besplatnye-kursy-estonskogo-yazyka
+
+pillow biblioteka dlja kartinok na TKinter
